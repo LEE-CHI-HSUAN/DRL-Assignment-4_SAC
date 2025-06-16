@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets\rl-video-episode-1200.gif" alt="Project Banner" width="200" />
+  <img src="assets/rl-video-episode-1200.gif" alt="Project Banner" width="200" />
 </p>
 <h3 align="center">SAC implementation</h3>
 
@@ -18,9 +18,9 @@ This repository contains the implementation of reinforcement learning agents for
 
 | Environment        | Description                                       | Demonstration                                        |
 |--------------------|---------------------------------------------------|------------------------------------------------------|
-| **Pendulum**       | Control a simple inverted pendulum system.        | <img src="assets\Pendulum-example.gif" alt="Pendulum" width="172" />                     |
-| **CartPole Balance** | Balance a pole on a moving cart.                  | <img src="assets\CartPole-example.gif" alt="CartPole Balance" width="172" />     |
-| **Humanoid Walk**  | Control a complex humanoid robot to walk.         | <img src="assets\rl-video-episode-1200.gif" alt="Humanoid Walk" width="172" />          |
+| **Pendulum**       | Control a simple inverted pendulum system.        | <img src="assets/Pendulum-example.gif" alt="Pendulum" width="172" />                     |
+| **CartPole Balance** | Balance a pole on a moving cart.                  | <img src="assets/CartPole-example.gif" alt="CartPole Balance" width="172" />     |
+| **Humanoid Walk**  | Control a complex humanoid robot to walk.         | <img src="assets/rl-video-episode-1200.gif" alt="Humanoid Walk" width="172" />          |
 
 # 📁 Structure
 
@@ -98,7 +98,7 @@ The training scripts evolve across the three tasks to handle the increasing comp
 
 Best performance: 819.25 (std: 43.54)
 
-![Training curves](assets\returns.png)
+![Training curves](assets/returns.png)
 
 The score plunges at the 1500-th episode due to a rise of the entropy coefficient, attempting to do more exploration.
 
